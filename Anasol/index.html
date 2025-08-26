@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta para Mi Amor</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Flores animadas en esquinas -->
+  <div class="flower flower-top-left"></div>
+  <div class="flower flower-top-right"></div>
+  <div class="flower flower-bottom-left"></div>
+  <div class="flower flower-bottom-right"></div>
+
+  <!-- Carta -->
+  <div class="envelope" id="envelope">
+    <div class="seal" id="seal">❤️</div>
+    <div class="letter" id="letter">
+      <h1>Para mi amor</h1>
+      <p id="message">Eres lo mejor que me ha pasado, gracias por estar en mi vida.</p>
+      <div class="collage">
+        <div class="row">
+          <img src="ana1.jpg" alt="Foto 1" onclick="changeMessage(0)">
+          <img src="ana2.jpg" alt="Foto 2" onclick="changeMessage(1)">
+          <img src="ana3.jpg" alt="Foto 3" onclick="changeMessage(2)">
+        </div>
+        <div class="row">
+          <img src="ana4.jpg" alt="Foto 4" onclick="changeMessage(3)">
+          <img src="ana5.jpg" alt="Foto 5" onclick="changeMessage(4)">
+          <img src="ana6.jpg" alt="Foto 6" onclick="changeMessage(5)">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Música oculta -->
+  <audio id="bg-music" src="Cuco - Melting [Cover] (Lyrics) (Sub. Español) - Sound Of Rain.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
